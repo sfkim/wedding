@@ -1,17 +1,40 @@
 /* for my custom style */
 
+#information-container {
+    position: relative;
+    width: 100%;
+    top: 100px;
+}
+
+#title-container {
+    position: relative;
+    width: 100%;
+    text-align: center;
+}
 
 #h1-pre {
+    color: white;
     text-align: center;
-    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
+    box-shadow: 0 0 0 rgba(0, 0, 0, 0);
 }
 
 #red-heart {
     position: absolute;
     display: inline-block;
-    top: -36px;
-    left: 372px;
-    width: 240px;
-    height: 240px;
+    top: -20px;
+    left: 45%;
+    width: 100px;
+    height: 100px;
     background: url("../asset/image/red-heart.png") no-repeat;
+    background-size: 100px;
+}
+
+.reveal h2.white {
+    color: white;
+}
+
+#map-container {
+    position: relative;
+    width: 100%;
+    height: 50%;
 }
