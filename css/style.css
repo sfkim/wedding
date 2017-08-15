@@ -1,21 +1,61 @@
-/* for my custom style */
-
-#information-container {
-    position: relative;
-    width: 100%;
-    top: 100px;
+* {
+    padding: 0;
+    margin: 0;
 }
 
-#title-container {
+html, body, #fullheight {
+    min-height: 100% !important;
+    height: 100%;
+}
+
+
+.page-container {
+    width: 100%;
+    height: 100%;
+    /*
+    background-color: #c5fcff;
+*/
+}
+
+#first-page {
+}
+
+#invite-title {
     position: relative;
     width: 100%;
+    height: 10%;
+    top: 5%;
     text-align: center;
-}
-
-#h1-pre {
     color: white;
+    font-size: 140px;
+    font-style: italic;
+}
+
+#main-picture-container {
+    position: relative;
+    width: 90%;
+    height: 95%;
+    top: 5%;
+    left: 5%;
+    background: url("../asset/image/wedding-picture/main.jpg") no-repeat;
+    background-size: 100% 95%;
+}
+
+#main-title-container {
+    position: relative;
+    top: 40%;
+    width: 100%;
     text-align: center;
-    box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+    color: white;
+}
+
+#main-title-container h1 {
+    font-size: 70px;
+}
+
+#main-title-container h2 {
+    margin-top: 10px;
+    font-size: 60px;
 }
 
 #red-heart {
@@ -29,13 +69,66 @@
     background-size: 100px;
 }
 
-.reveal h2.white {
+#main-title-bottom-container {
+    position: relative;
+    top: 68%;
+    width: 100%;
+    height: 10%;
+    text-align: center;
     color: white;
+    font-size: 40px;
+}
+
+#second-page {
+}
+
+#lucky {
+    left: 21%;
+    position: relative;
+    width: 600px;
+    height: 490px;
+    background: url(../asset/image/lucky.jpg) no-repeat;
+    background-size: 600px;
+    opacity: 0.5;
+}
+
+#invite-letter-title {
+    position: relative;
+    width: 100%;
+    height: 10%;
+    text-align: center;
+    color: black;
+    font-size: 140px;
+    font-style: italic;
+}
+
+#invite-letter-picture {
+    position: relative;
+    width: 80%;
+    height: 50%;
+    left: 10%;
+    background: url("../asset/image/wedding-picture/invite.png") no-repeat;
+    background-size: 100%;
+    border: dotted 7px black;
+}
+
+#third-page {
+}
+
+#map-title {
+    position: relative;
+    width: 100%;
+    height: 10%;
+    top: 5%;
+    text-align: center;
+    color: black;
+    font-size: 140px;
+    font-style: italic;
 }
 
 #map-container {
-    position: relative;
     width: 100%;
+    top: 10%;
     height: 550px;
-
+    border: solid 3px black;
 }

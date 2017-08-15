@@ -1,4 +1,4 @@
-var container = document.getElementById('map');
+var container = document.getElementById('map-container');
 var options = {
     center: new daum.maps.LatLng(37.404230, 127.111731),
     level: 4
