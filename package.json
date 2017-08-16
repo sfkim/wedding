@@ -17,6 +17,5 @@
   },
   "homepage": "https://github.com/sfkim/wedding#readme",
   "dependencies": {
-    "lightgallery.js": "^1.0.1"
   }
 }
