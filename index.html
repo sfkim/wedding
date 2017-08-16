@@ -4,11 +4,12 @@
     <meta charset="UTF-8">
     <title>Feel ♥ Eun</title>
     <link rel="stylesheet" href="css/style.css">
+    <link type="text/css" rel="stylesheet" href="./node_modules/lightgallery.js/dist/css/lightgallery.css" />
 </head>
 <body>
-    <div id="first-page" class="page-container">
+    <div class="page-container">
         <div id="main-picture-container">
-            <div id="invite-title">Wedding Day</div>
+            <div class="page-top-title white">Wedding Day</div>
 
             <div id="main-title-container">
                 <h1><pre>김수필      김시은</pre></h1>
@@ -21,17 +22,47 @@
             </div>
         </div>
     </div>
-    <div id="second-page" class="page-container">
+    <div class="page-container">
         <div id="lucky"></div>
-        <div id="invite-letter-title">Invitation</div>
+        <div class="page-top-title black">Invitation</div>
         <div id="invite-letter-picture"></div>
     </div>
-    <div id="third-page" class="page-container">
-        <div id="map-title">Location</div>
+    <div class="page-container">
+        <div class="page-top-title black">Location</div>
         <div id="map-container"></div>
+    </div>
+    <div class="page-container">
+        <div class="page-top-title black">Gallery</div>
+        <div id="gallery-container">
+            <div id="lightgallery">
+                <a href="./asset/image/wedding-picture/wedding-pic-1.jpg">
+                    <img class="thumbnail-size" src="./asset/image/wedding-picture/wedding-pic-1.jpg" />
+                </a>
+                <a href="./asset/image/wedding-picture/wedding-pic-2.jpg">
+                    <img class="thumbnail-size" src="./asset/image/wedding-picture/wedding-pic-2.jpg" />
+                </a>
+                <a href="./asset/image/wedding-picture/wedding-pic-3.jpg">
+                    <img class="thumbnail-size" src="./asset/image/wedding-picture/wedding-pic-3.jpg" />
+                </a>
+                <a href="./asset/image/wedding-picture/wedding-pic-3.jpg">
+                    <img class="thumbnail-size" src="./asset/image/wedding-picture/wedding-pic-3.jpg" />
+                </a>
+                <a href="./asset/image/wedding-picture/wedding-pic-2.jpg">
+                    <img class="thumbnail-size" src="./asset/image/wedding-picture/wedding-pic-2.jpg" />
+                </a>
+                <a href="./asset/image/wedding-picture/wedding-pic-1.jpg">
+                    <img class="thumbnail-size" src="./asset/image/wedding-picture/wedding-pic-1.jpg" />
+                </a>
+            </div>
+        </div>
     </div>
 
     <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=467965a9eabf3a44fe76cd730a1b4323"></script>
     <script src="js/map.js"></script>
+    <script src="./node_modules/lightgallery.js/dist/js/lightgallery.min.js"></script>
+    <script type="text/javascript">
+        lightGallery(document.getElementById('lightgallery'), {
+        });
+    </script>
 </body>
 </html>
