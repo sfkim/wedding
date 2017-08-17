@@ -127,6 +127,12 @@ html, body {
 }
 
 .thumbnail-size {
-    width: 33%;
-    height: 33%;
+    width: 49%;
+    height: 49%;
+}
+
+#disqus_thread {
+    position: relative;
+    width: 100%;
+    top: 20%;
 }
