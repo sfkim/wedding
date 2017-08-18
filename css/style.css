@@ -1,6 +1,7 @@
 * {
     padding: 0;
     margin: 0;
+    font-family: Serif;
 }
 
 html, body {
@@ -25,13 +26,29 @@ html, body {
     position: relative;
     width: 100%;
     height: 10%;
-    top: 5%;
+    top: 2%;
     text-align: center;
     font-size: 140px;
     font-style: italic;
+
+    color: black;
+    /*
+    -webkit-text-fill-color: white;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    */
 }
 
 /* first page */
+
+#wedding-day {
+    position: relative;
+    width: 100%;
+    height: 15%;
+    top: 2%;
+    left: 3%;
+    background: url("../asset/image/wedding-day-string.png") no-repeat;
+}
 
 #main-picture-container {
     position: relative;
@@ -45,10 +62,10 @@ html, body {
 
 #main-title-container {
     position: relative;
-    top: 40%;
+    top: 12%;
     width: 100%;
     text-align: center;
-    color: white;
+    color: black;
 }
 
 #main-title-container h1 {
@@ -73,11 +90,11 @@ html, body {
 
 #main-title-bottom-container {
     position: relative;
-    top: 68%;
+    top: 63%;
     width: 100%;
     height: 10%;
     text-align: center;
-    color: white;
+    color: #7af7b3;
     font-size: 40px;
 }
 
@@ -88,7 +105,7 @@ html, body {
     position: relative;
     width: 600px;
     height: 490px;
-    background: url(../asset/image/lucky.jpg) no-repeat;
+    background: url("../asset/image/lucky.jpg") no-repeat;
     background-size: 600px;
     opacity: 0.5;
 }
@@ -108,16 +125,38 @@ html, body {
 
 #map-container {
     width: 100%;
-    top: 10%;
+    top: 5%;
     height: 550px;
     border: solid 3px black;
 }
 
+#location-information {
+    position: relative;
+    width: 100%;
+    top: 7%;
+    height: 50%;
+}
+
+#information-image {
+    position: relative;
+    width: 90%;
+    height: 100%;
+    left: 5%;
+    background: url("../asset/image/location-information.png") no-repeat;
+    background-size: 100% 100%;
+}
+
 /* forth page */
+
+#forth-page {
+    position: relative;
+    top: 10%;
+}
+
 #gallery-container {
     position: relative;
     width: 100%;
-    top: 10%;
+    top: 5%;
 }
 
 #lightgallery {
@@ -127,8 +166,8 @@ html, body {
 }
 
 .thumbnail-size {
-    width: 49%;
-    height: 49%;
+    width: 32.5%;
+    height: 32.5%;
 }
 
 #disqus_thread {
