@@ -4,6 +4,7 @@
     font-family: Serif;
 }
 
+
 html, body {
     min-height: 100% !important;
     height: 100%;
@@ -20,6 +21,11 @@ html, body {
 .page-container {
     width: 100%;
     height: 100%;
+}
+
+.black-page-container {
+    width: 100%;
+    height: 15%;
 }
 
 .page-top-title {
