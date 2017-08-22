@@ -169,9 +169,3 @@ html, body {
     width: 32.5%;
     height: 32.5%;
 }
-
-#disqus_thread {
-    position: relative;
-    width: 100%;
-    top: 20%;
-}
