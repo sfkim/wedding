@@ -1,7 +1,7 @@
 var container = document.getElementById('map-container');
 var options = {
     center: new daum.maps.LatLng(37.404230, 127.111731),
-    level: 2,
+    level: 5,
     scrollwheel: true,
     disableDoubleClickZoom: true
 };

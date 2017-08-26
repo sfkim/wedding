@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Feel ♥ Eun</title>
     <link rel="stylesheet" href="css/style.css">
     <link href="./lib/lightgallery/dist/css/lightgallery.css" rel="stylesheet">
@@ -23,13 +24,17 @@
             </div>
         </div>
     </div>
-    <div class="black-page-container"></div>
+
+    <div class="blank-page-container"></div>
+
     <div class="page-container">
         <div id="lucky"></div>
         <div class="page-top-title black">Invitation</div>
         <div id="invite-letter-picture"></div>
     </div>
-    <div class="black-page-container"></div>
+
+    <div class="blank-page-container"></div>
+
     <div class="page-container">
         <div class="page-top-title black">Location</div>
         <div id="map-container"></div>
@@ -37,7 +42,9 @@
             <div id="information-image"></div>
         </div>
     </div>
+
     <div class="black-page-container"></div>
+
     <div class="page-container" id="forth-page">
         <div class="page-top-title black">Gallery</div>
         <div id="gallery-container">
@@ -75,14 +82,19 @@
 
     <script type="text/javascript">
         $(document).ready(function(){
-            $('#lightgallery').lightGallery();
+            $('#lightgallery').lightGallery({
+                share: 'false',
+                width: '100%'
+            });
         });
     </script>
 
     <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=467965a9eabf3a44fe76cd730a1b4323"></script>
     <script src="js/map.js"></script>
     <script src="https://cdn.jsdelivr.net/picturefill/2.3.1/picturefill.min.js"></script>
-    <script src="./lib/lightgallery/dist/js/lightgallery-all.min.js"></script>
+    <script src="./lib/lightgallery/dist/js/lightgallery.min.js"></script>
+    <script src="./lib/lightgallery/modules/lg-autoplay.min.js"></script>
+    <script src="./lib/lightgallery/modules/lg-thumbnail.min.js"></script>
 
 </body>
 </html>

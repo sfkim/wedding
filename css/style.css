@@ -23,7 +23,7 @@ html, body {
     height: 100%;
 }
 
-.black-page-container {
+.blank-page-container {
     width: 100%;
     height: 15%;
 }
@@ -34,7 +34,7 @@ html, body {
     height: 10%;
     top: 2%;
     text-align: center;
-    font-size: 140px;
+    font-size: 50px;
     font-style: italic;
     color: black;
 }
@@ -45,9 +45,9 @@ html, body {
     position: relative;
     width: 100%;
     height: 15%;
-    top: 2%;
     left: 3%;
     background: url("../asset/image/wedding-day-string.png") no-repeat;
+    background-size: 90% 100%;
 }
 
 #main-picture-container {
@@ -69,23 +69,23 @@ html, body {
 }
 
 #main-title-container h1 {
-    font-size: 70px;
+    font-size: 25px;
 }
 
 #main-title-container h2 {
-    margin-top: 10px;
-    font-size: 60px;
+    margin-top: 5px;
+    font-size: 20px;
 }
 
 #red-heart {
     position: absolute;
     display: inline-block;
-    top: -20px;
-    left: 45%;
-    width: 100px;
-    height: 100px;
+    top: -7px;
+    left: 44%;
+    width: 40px;
+    height: 40px;
     background: url("../asset/image/red-heart.png") no-repeat;
-    background-size: 100px;
+    background-size: 40px;
 }
 
 #main-title-bottom-container {
@@ -95,18 +95,18 @@ html, body {
     height: 10%;
     text-align: center;
     color: #7af7b3;
-    font-size: 40px;
+    font-size: 15px;
 }
 
 /* second page */
 
 #lucky {
-    left: 21%;
+    left: 34%;
     position: relative;
-    width: 600px;
-    height: 490px;
+    width: 50%;
+    height: 20%;
     background: url("../asset/image/lucky.jpg") no-repeat;
-    background-size: 600px;
+    background-size: 70%;
     opacity: 0.5;
 }
 
@@ -118,16 +118,17 @@ html, body {
     top: 5%;
     background: url("../asset/image/wedding-picture/invite.png") no-repeat;
     background-size: 100%;
-    border: dotted 7px black;
+    border: dotted 2px black;
 }
 
 /* third page */
 
 #map-container {
-    width: 100%;
+    width: 80%;
     top: 5%;
-    height: 550px;
-    border: solid 3px black;
+    left: 10%;
+    height: 40%;
+    border: solid 1px black;
 }
 
 #location-information {
@@ -166,6 +167,5 @@ html, body {
 }
 
 .thumbnail-size {
-    width: 32.5%;
-    height: 32.5%;
+    width: 32%;
 }
